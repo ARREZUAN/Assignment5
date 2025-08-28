@@ -15,6 +15,9 @@ for(const button of copyBtns){
 button.addEventListener('click',function(){
 copyCount++;
 copyValue.textContent=copyCount;
+//----copy number------
+const copyNumber = button.parentNode.parentNode.childNodes[7].innerText;
+  navigator.clipboard.writeText(copyNumber);
 })
 };
 
