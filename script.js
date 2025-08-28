@@ -17,7 +17,7 @@ copyCount++;
 copyValue.textContent=copyCount;
 //----copy number------
 const copyNumber = button.parentNode.parentNode.childNodes[7].innerText;
-  navigator.clipboard.writeText(copyNumber);
+navigator.clipboard.writeText(copyNumber);
 })
 };
 
