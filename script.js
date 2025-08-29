@@ -60,7 +60,7 @@ starCount = countVal;
 const newCart =document.createElement("div");
 
 newCart.innerHTML=
-` <div class="history-item bg-[#FAFAFA] rounded-md p-2 border border-[#f5f2f2] flex justify-between items-center mb-2">
+` <div class="history-item bg-[#FAFAFA] rounded-md p-2 border border-[#f5f2f2] flex justify-between items-center m-20">
                         <div><span class="font-bold">${serviceName}</span>
                             <p> ${phnNumber}</p>
                         </div><span>${time()}</span>
