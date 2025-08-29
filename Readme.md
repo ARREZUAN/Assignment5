@@ -11,7 +11,7 @@ querySelectorAll= its return all match element.
 --How do you create and insert a new element into the DOM?\
 
 create:= const create =  document.createElement('div')
-insert := create.innerHTML`html element`
+insert := create.innerHTML=`html element`
 
 
 --What is Event Bubbling and how does it work?

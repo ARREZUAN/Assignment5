@@ -25,7 +25,7 @@ navigator.clipboard.writeText(copyNumber);
 let heartCount = 0;
 const heartIcon =document.querySelectorAll('.heart');
 //console.log(heartIcon);
-const heartValue = document.getElementById('herdCount');
+const heartValue = document.getElementById('heartCount');
 
 for(const hearts of heartIcon){
 hearts.addEventListener('click',function(){
@@ -47,7 +47,7 @@ const serviceName = Call.parentNode.parentNode.childNodes[5].innerText;
 const phnNumber = Call.parentNode.parentNode.childNodes[7].innerText;
 console.log(serviceName);
 
-if(starCount <= 0){
+if(starCount < 20){
 alert(`❌ You do not have sufficient balance.Need minimum 20 coin to call.`);
 }
 else{
